@@ -154,12 +154,16 @@ Tables Subcategory has a total of 34 profucts */
 ## Reconmendations
 - Customer Satisfactory and Retension
  1. Tracking apps can be incoporated to enables customers track their product ordered to ensure both Customers and Store Logistics team are in communication
- 2. Methods in delivering products like Sauder Camden County Barrister Bookcase, Planked Cherry Finish and Sauder Inglewood Library Bookcases with takes within 0-24 hours can be implemented into dilevery of products that takes averagly over 40 days to avoid customers loosing intrest.
+ 2. Methods in delivering products like Sauder Camden County Barrister Bookcase, Planked Cherry Finish and Sauder Inglewood Library Bookcases which takes within 0-24 hours can be implemented into dilevery of products that takes averagly over 40 days to avoid customers loosing intrest and inturn returning them or canceling purchase.
  3. Discount and refferals can be made for Top and returning Customers
  - Logistics Improvement
  1. Alternatives route can be follwed to increase rate of delivery to customers
  2. Delivery Vans and Trucks shouls be serviced at intervals to ensure maximum efficiency and less breakdowns
  3. Drivers should be trained at intervals to improve their skills and efficiency
- - 
+ - Products and Services
+   1. The production team can curate more Products that can cater for the Home office segment to increase purchase of the customers in that segment
+   2. Product ubder the  Chair  Subcategory should be raidily available
+   3. Products with less sales and profit can be sold on discount
+   4. 
 
 
