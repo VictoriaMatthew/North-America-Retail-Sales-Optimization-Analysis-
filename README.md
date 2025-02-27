@@ -151,6 +151,12 @@ Tables Subcategory has a total of 34 profucts */
 - The Consumer segment generates the hightest profit of approximatly $35,427 contributing to 48.7% of the Store's profit margin
 - Laura Armstrong serves as the store's highest customer spending over $1150 on purchases
 - Furnishing Subcategory has the highest number of Products in the Store with a total of 186 products
-
+## Reconmendations
+- Customer Satisfactory and Retension
+ 1. Tracking apps can be incoporated to enables customers track their product ordered to ensure both Customers and Store Logistics team are in communication 
+ 2.Methods in delivering products like Sauder Camden County Barrister Bookcase, Planked Cherry Finish and Sauder Inglewood Library Bookcases with takes within 0-24 hours can be implemented into dilevery of products that takes averagly over 40 days to avoid customers loosing intrest.
+ 3. Discount and refferals can be made for Top and returning Customers
+ - Logistics Improvement
+ 1.. Alternatives route can be 
 
 
