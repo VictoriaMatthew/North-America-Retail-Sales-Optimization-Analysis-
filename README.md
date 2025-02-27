@@ -165,5 +165,7 @@ Tables Subcategory has a total of 34 profucts */
  2. Product ubder the  Chair  Subcategory should be raidily available
  3. Products with less sales and profit can be sold on discount
    
-
+### Challenges
+ - Had to start this project again because I Lost my Query file before saving due to consistent Interrupted power supply and workig with a Desktop-like PC
+ - Spent some time wondering why some Query won't execute, behold it was because of a mighty-tiny comma (,)
 
