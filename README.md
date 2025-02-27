@@ -13,6 +13,10 @@ The Data used is a Retail Supply Chain Sales Analysis.CSV and Calender Date.CSV
    - DimProduct
    - DimLocation
 3. Creating an ERD
+
+   
+   ![sql project9](https://github.com/user-attachments/assets/c9719296-a63a-465e-8fa4-521ff8c01227)
+
    ## Objectives
 1. What was the Average delivery days for different product subcategory?
 2. What was the Average delivery days for each segment?
