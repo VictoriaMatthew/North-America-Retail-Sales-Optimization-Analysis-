@@ -16,8 +16,7 @@ The Data used is a Retail Supply Chain Sales Analysis.CSV and Calender Date.CSV
    ## Objectives
 1. What was the Average delivery days for different product subcategory?
 2. What was the Average delivery days for each segment?
-3.What are the Top 5 Fastest delivered products and Top 5
-slowest delivered products?
+3. What are the Top 5 Fastest delivered products and Top 5 slowest delivered products?
 4. Which product Subcategory generate most profit?
 5. Which segment generates the most profit?
 6. Which Top 5 customers made the most profit?
@@ -50,7 +49,23 @@ ORDER BY AvgDiliveryDays DESC
 /* It takes an Average delivery days of 35 days to get products delivered to the Coporate Segemrnt 
 and an Average of 34 and 31 days to get products delivered to the Consumer and Home Office Segments respectively*/
 ```
+### 3. What are the Top 5 Fastest delivered products and Top 5 slowest delivered products?
+```sql
+SELECT	TOP 5( dp.Product_Name), DATEDIFF(DAY,srf.Order_Date,srf.Ship_Date) AS DiliveryDays
+FROM SalesRetailFact AS srf
+LEFT JOIN DimProduct AS dp
+ON
+srf.ProductKey = dp.ProductKey
+ORDER BY DiliveryDays 
 
+/* The Top 5 Fastest delivered products are
+Sauder Camden County Barrister Bookcase, Planked Cherry Finish
+Sauder Inglewood Library Bookcases
+O'Sullivan 2-Shelf Heavy-Duty Bookcases
+O'Sullivan Plantations 2-Door Library in Landvery Oak
+O'Sullivan Plantations 2-Door Library in Landvery Oak 
+and are all dilivered within a day.*/
+```
 
 
 
