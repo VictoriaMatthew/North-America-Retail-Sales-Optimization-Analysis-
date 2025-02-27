@@ -13,10 +13,8 @@ The Data used is a Retail Supply Chain Sales Analysis.CSV and Calender Date.CSV
    - DimProduct
    - DimLocation
 3. Creating an ERD
-   ![sql project9](https://github.com/user-attachments/assets/18d2bd81-a462-4cdd-81ee-d45801c6cb10)
    ## Objectives
-   1. What was the Average delivery days for different
-product subcategory?
+1. What was the Average delivery days for different product subcategory?
 2. What was the Average delivery days for each segment?
 3.What are the Top 5 Fastest delivered products and Top 5
 slowest delivered products?
@@ -25,8 +23,18 @@ slowest delivered products?
 6. Which Top 5 customers made the most profit?
 7. What is the total number of products by Subcategory
 ## Data Analysis
- 1. What was the Average delivery days for different
-    
+ 1. What was the Average delivery days for different product subcategory?
+```sql
+SELECT dp.Sub_Category,AVG( DATEDIFF(DAY,srf.Order_Date,srf.Ship_Date)) AS AvgDiliveryDays
+FROM SalesRetailFact AS srf
+LEFT JOIN DimProduct AS dp
+ON
+srf.ProductKey = dp.ProductKey
+GROUP BY Sub_Category
+ORDER BY AvgDiliveryDays DESC
+/* It takes Averagely 36 Days to get Table Products deliverd to Customers
+35 Days for Furnishings and 32 Days for both Chairs and Bookcases Product respectively to be deliverd to Customer*/```
+
 
 
 
