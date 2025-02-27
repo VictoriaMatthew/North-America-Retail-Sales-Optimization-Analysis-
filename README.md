@@ -145,6 +145,8 @@ Tables Subcategory has a total of 34 profucts */
 ## Results/Findings
 - Products from Chairs and Bookcases Subcategory has the fasted delivery rate of averagly 32 Days.
 - Customers in Home Office Segment gets their product delivered faster with the average of 31 days as compared to the Coporate Segemrnt which takes averagly 35 Days
+- The fastest Deliverd product is Sauder Camden County Barrister Bookcase, Planked Cherry Finish and is delivered with 0-24 hours
+- It takes approximatly 31 weeks to get Bush Mission Pointe Library product deliverd to customer after ordring
 - 
 
 
