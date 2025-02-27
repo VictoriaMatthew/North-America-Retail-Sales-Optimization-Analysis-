@@ -139,7 +139,7 @@ GROUP BY Sub_Category
 ORDER BY TotalProduct DESC
 
 /* The Furnishing Subcategory has a total of 186 products which is the Subcategory with the highest products 
-while Chaies Subcategory has 87 products, Bookcases Subcategory has 48 products and 
+while Chairs Subcategory has 87 products, Bookcases Subcategory has 48 products and 
 Tables Subcategory has a total of 34 profucts */
 ```
 ## Results/Findings
@@ -149,7 +149,8 @@ Tables Subcategory has a total of 34 profucts */
 - It takes approximatly 31 weeks to get Bush Mission Pointe Library product deliverd to customer after ordring
 - 50.1% of the Stores profit is generated feom the Subcategory Chair
 - The Consumer segment generates the hightest profit of approximatly $35,427 contributing to 48.7% of the Store's profit margin
-- 
+- Laura Armstrong serves as the store's highest customer spending over $1150 on purchases
+- Furnishing Subcategory has the highest number of Products in the Store with a total of 186 products
 
 
 
