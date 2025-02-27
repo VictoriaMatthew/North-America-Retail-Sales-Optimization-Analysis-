@@ -96,10 +96,48 @@ the least profit comes from the  Subcategory tables */
 ```
 ### 5. Which segment generates the most profit?
 ```sql
+SELECT dc.Segment,ROUND (SUM(srf.Profit),2) AS TotlProfit
+FROM SalesRetailFact AS srf
+LEFT JOIN DimCustomer AS dc
+ON
+srf.Customer_ID = dc.Customer_ID
+WHERE srf.Profit > 0
+GROUP BY Segment
+ORDER BY TotlProfit DESC
 
+/* The Consumer segment generates the hightest profit of approximatly $35,427
+ and 
+the least profit comes from the customers in the Home office segment */
+```
+### 6. Which Top 5 customers made the most profit?
+```sql
+SELECT	TOP 5( dc.Customer_Name), ROUND (SUM(srf.Profit),2) AS TotalProfit
+FROM SalesRetailFact AS srf
+LEFT JOIN DimCustomer AS dc
+ON
+srf.Customer_ID = dc.Customer_ID
+WHERE srf.Profit > 0
+GROUP BY dc.Customer_Name
+ORDER BY TotalProfit DESC
 
-6. Which Top 5 customers made the most profit?
-7. What is the total number of products by Subcategory
+/* Top 5 customers making the most profit for the firm are;
+Laura Armstrong
+Joe Elijah
+Seth Vernon
+Quincy Jones
+Maria Etezadi */
+```
+### 7. What is the total number of products by Subcategory
+```sql
+SELECT Sub_Category, COUNT (Product_Name) AS TotalProduct
+FROM DimProduct
+GROUP BY Sub_Category
+ORDER BY TotalProduct DESC
+
+/* The Furnishing Subcategory has a total of 186 products which is the Subcategory with the highest products 
+while Chaies Subcategory has 87 products, Bookcases Subcategory has 48 products and 
+Tables Subcategory has a total of 34 profucts */
+```
 
 
 
