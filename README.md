@@ -161,9 +161,9 @@ Tables Subcategory has a total of 34 profucts */
  2. Delivery Vans and Trucks shouls be serviced at intervals to ensure maximum efficiency and less breakdowns
  3. Drivers should be trained at intervals to improve their skills and efficiency
  - Products and Services
-   1. The production team can curate more Products that can cater for the Home office segment to increase purchase of the customers in that segment
-   2. Product ubder the  Chair  Subcategory should be raidily available
-   3. Products with less sales and profit can be sold on discount
+ 1. The production team can curate more Products that can cater for the Home office segment to increase purchase of the customers in that segment
+ 2. Product ubder the  Chair  Subcategory should be raidily available
+ 3. Products with less sales and profit can be sold on discount
    
 
 
