@@ -18,13 +18,13 @@ The Data used is a Retail Supply Chain Sales Analysis.CSV and Calender Date.CSV
    ![sql project9](https://github.com/user-attachments/assets/c9719296-a63a-465e-8fa4-521ff8c01227)
 
    ## Objectives
-1. What was the Average delivery days for different product subcategory?
-2. What was the Average delivery days for each segment?
-3. What are the Top 5 Fastest delivered products and Top 5 slowest delivered products?
-4. Which product Subcategory generate most profit?
-5. Which segment generates the most profit?
-6. Which Top 5 customers made the most profit?
-7. What is the total number of products by Subcategory
+   1. What was the Average delivery days for different product subcategory?
+   2. What was the Average delivery days for each segment?
+   3. What are the Top 5 Fastest delivered products and Top 5 slowest delivered products?
+   4. Which product Subcategory generate most profit?
+   5. Which segment generates the most profit?
+   6. Which Top 5 customers made the most profit?
+   7. What is the total number of products by Subcategory
 ## Data Analysis
 ### 1. What was the Average delivery days for different product subcategory?
 ```sql
