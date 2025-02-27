@@ -164,6 +164,6 @@ Tables Subcategory has a total of 34 profucts */
    1. The production team can curate more Products that can cater for the Home office segment to increase purchase of the customers in that segment
    2. Product ubder the  Chair  Subcategory should be raidily available
    3. Products with less sales and profit can be sold on discount
-   4. 
+   
 
 
