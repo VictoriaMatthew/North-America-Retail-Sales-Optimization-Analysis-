@@ -66,6 +66,40 @@ O'Sullivan Plantations 2-Door Library in Landvery Oak
 O'Sullivan Plantations 2-Door Library in Landvery Oak 
 and are all dilivered within a day.*/
 ```
+```sql
+SELECT	TOP 5( dp.Product_Name), DATEDIFF(DAY,srf.Order_Date,srf.Ship_Date) AS DiliveryDays
+FROM SalesRetailFact AS srf
+LEFT JOIN DimProduct AS dp
+ON
+srf.ProductKey = dp.ProductKey
+ORDER BY DiliveryDays DESC
+
+/* The Top 5  products with Slow Delivery rates which took 214 days to be delivered to customers are;
+Bush Mission Pointe Library
+Hon Multipurpose Stacking Arm Chairs
+Global Ergonomic Managers Chair
+Tensor Brushed Steel Torchiere Floor Lamp
+Howard Miller 11-1/2" Diameter Brentwood Wall Clock */
+```
+### 4.  Which product Subcategory generate most profit?
+```sql
+SELECT dp.Sub_Category,ROUND(SUM(srf.Profit),2) AS TotalProfit
+FROM SalesRetailFact AS srf
+LEFT JOIN DimProduct AS dp
+ON
+srf.ProductKey = dp.ProductKey
+WHERE srf.Profit > 0
+GROUP BY dp.Sub_Category
+ORDER BY TotalProfit DESC
+/* The Subcategory Chair generated the highest profit of $36,471.1 and 
+the least profit comes from the  Subcategory tables */
+```
+### 5. Which segment generates the most profit?
+```sql
+
+
+6. Which Top 5 customers made the most profit?
+7. What is the total number of products by Subcategory
 
 
 
