@@ -142,7 +142,10 @@ ORDER BY TotalProduct DESC
 while Chaies Subcategory has 87 products, Bookcases Subcategory has 48 products and 
 Tables Subcategory has a total of 34 profucts */
 ```
-
+## Results/Findings
+- Products from Chairs and Bookcases Subcategory has the fasted delivery rate of averagly 32 Days.
+- Customers in Home Office Segment gets their product delivered faster with the average of 31 days as compared to the Coporate Segemrnt which takes averagly 35 Days
+- 
 
 
 
