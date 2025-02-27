@@ -23,7 +23,7 @@ slowest delivered products?
 6. Which Top 5 customers made the most profit?
 7. What is the total number of products by Subcategory
 ## Data Analysis
- 1. What was the Average delivery days for different product subcategory?
+### 1. What was the Average delivery days for different product subcategory?
 ```sql
 SELECT dp.Sub_Category,AVG( DATEDIFF(DAY,srf.Order_Date,srf.Ship_Date)) AS AvgDiliveryDays
 FROM SalesRetailFact AS srf
@@ -32,8 +32,25 @@ ON
 srf.ProductKey = dp.ProductKey
 GROUP BY Sub_Category
 ORDER BY AvgDiliveryDays DESC
+
 /* It takes Averagely 36 Days to get Table Products deliverd to Customers
-35 Days for Furnishings and 32 Days for both Chairs and Bookcases Product respectively to be deliverd to Customer*/```
+35 Days for Furnishings and 32 Days for both Chairs and Bookcases Product respectively to be deliverd to Customer*/
+```
+
+### 2. What was the Average delivery days for each segment?
+```sql
+SELECT dc.Segment,AVG( DATEDIFF(DAY,srf.Order_Date,srf.Ship_Date)) AS AvgDiliveryDays
+FROM SalesRetailFact AS srf
+LEFT JOIN DimCustomer AS dc
+ON
+srf.Customer_ID = dc.Customer_ID
+GROUP BY Segment
+ORDER BY AvgDiliveryDays DESC
+
+/* It takes an Average delivery days of 35 days to get products delivered to the Coporate Segemrnt 
+and an Average of 34 and 31 days to get products delivered to the Consumer and Home Office Segments respectively*/
+```
+
 
 
 
